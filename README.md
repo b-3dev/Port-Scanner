@@ -11,31 +11,14 @@ A simple, multithreaded port scanner designed to scan a range of ports on a spec
 - Auto installation of required libraries (`colorama`, `psutil`) if they are not found.
 - Colorful output for better readability.
 
-## Prerequisites
-
-To use the tool, you need Python 3.x installed on your system along with the following libraries:
-
-- `colorama` (for colored terminal output)
-- `psutil` (for system and process information)
-
-If these libraries are not installed, the script will automatically attempt to install them for you.
-
 ## Installation
 
 1. Clone the repository or download the script to your local machine.
 
-2. Ensure that Python 3.x is installed on your system.
-
-3. If you need to install the required libraries manually, you can use `pip`:
+2. Run the script using Python:
 
    ```bash
-   pip install colorama psutil
-   ```
-
-4. Run the script using Python:
-
-   ```bash
-   python port_scanner.py
+   python src/script.py
    ```
 
 ## Usage
@@ -102,4 +85,8 @@ The main function that runs the tool, handles user input, and initiates the scan
 
 ## License
 
-This tool is open-source. Feel free to use, modify, and distribute it under the terms of the MIT License. See `LICENSE` for more details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Need Help?
+
+If you encounter any issues or have questions about this project, feel free to open an issue in the [GitHub repository](https://github.com/b-3dev/Port-Scanner/issues). I'll be happy to assist you!
